@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Landing Page</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user" />
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <h1>My Landing Page</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, ipsa!</p>
+      <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <div class="container">
+      <h2>What is this landing page about</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima doloribus, recusandae in
+        harum similique suscipit aliquid debitis facere id at voluptate, placeat cum eum nisi saepe,
+        aliquam voluptates ut alias?
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt omnis cumque
+        provident animi accusantium velit atque, voluptatibus laborum? Dicta?
+      </p>
+
+      <h2>Tell Me More</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ullam earum, voluptates
+        consequatur officia, sint repudiandae necessitatibus tenetur laborum ratione quidem iste et
+        doloribus, facilis minima ducimus. Dolor ipsa odio reprehenderit voluptate ad veritatis
+        perferendis! Porro quod exercitationem quidem facere.
+      </p>
+      <h2>Benefits</h2>
+      <ul>
+        <li>Lifetime Access</li>
+        <li>30 Day Money Back</li>
+        <li>Tailored Customer Support</li>
+      </ul>
+
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi ex aliquid, pariatur
+        similique, ipsa et explicabo assumenda itaque debitis atque. Accusamus perspiciatis ratione
+        explicabo dolorum iste esse nulla odio sed amet. Soluta, eum provident? Blanditiis nisi
+        officia nesciunt? In, repellat quia. Sint quas at culpa officia nam sit, aliquam illo vel
+        cupiditate animi laborum earum, provident praesentium repellat perspiciatis deserunt
+        architecto ratione, porro repudiandae tempora. Pariatur eaque expedita ea.
+      </p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="container">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="modal-content">
+          <p>Register with us to get offer, support and more</p>
+          <form class="modal-form">
+            <div class="">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Enter Name" />
+            </div>
+            <div class="">
+              <label for="name">Email</label>
+              <input type="email" id="email" placeholder="Enter Email" />
+            </div>
+            <div class="">
+              <label for="name">Password</label>
+              <input type="password" id="password" placeholder="Enter Password" />
+            </div>
+            <div class="">
+              <label for="password2">Name</label>
+              <input type="password2" id="password2" placeholder="Confirm Password" />
+            </div>
+            <input type="submit" value="Submit" class="submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
