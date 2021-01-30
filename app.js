@@ -16,11 +16,17 @@ toggle.addEventListener('click', () => {
     nav.style.animationName = 'navopen';
     nav.style.animationDuration = 'var(--animation-duration)';
     nav.style.transform = 'translateX(0%)';
+
+    toggle.style.animationName = 'movebutton-right';
+    toggle.style.animationDuration = 'var(--animation-duration)';
     toggle.style.left = '220px';
   } else {
     nav.style.animationName = 'navclose';
     nav.style.animationDuration = 'var(--animation-duration)';
     nav.style.transform = 'translateX(-100%)';
+
+    toggle.style.animationName = 'movebutton-left';
+    toggle.style.animationDuration = 'var(--animation-duration)';
     toggle.style.left = '20px';
   }
 });

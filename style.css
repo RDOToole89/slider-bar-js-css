@@ -108,6 +108,8 @@ button:focus {
   position: absolute;
   top: 20px;
   left: 20px;
+  animation-name: movebutton-right;
+  animation-duration: var(--animation-duration);
 }
 
 .cta-btn {
@@ -215,5 +217,25 @@ button:focus {
 
   to {
     transform: translateX(-100%);
+  }
+}
+
+@keyframes movebutton-right {
+  from {
+    left: 20px;
+  }
+
+  to {
+    left: 220px;
+  }
+}
+
+@keyframes movebutton-left {
+  from {
+    left: 220px;
+  }
+
+  to {
+    left: 20px;
   }
 }
