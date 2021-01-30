@@ -108,8 +108,8 @@ button:focus {
   position: absolute;
   top: 20px;
   left: 20px;
-  animation-name: movebutton-right;
-  animation-duration: var(--animation-duration);
+  /* animation-name: movebutton-right;
+  animation-duration: var(--animation-duration); */
 }
 
 .cta-btn {
